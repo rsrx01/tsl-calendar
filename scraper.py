@@ -20,7 +20,7 @@ def run_sync():
     cal.add('version', '2.0')
     cal.add('x-wr-calname', 'TheSmartLocal Events')
 
-    # 1. ADD SYNC TOKEN (Always keep this so the file isn't empty)
+    # 1. ADD SYNC TOKEN
     refresh_event = Event()
     refresh_event.add('summary', '🔄 TSL Calendar Last Synced')
     now = datetime.now(pytz.utc)
@@ -29,43 +29,38 @@ def run_sync():
     refresh_event.add('uid', 'sync-token-constant@tsl-bot.local')
     cal.add_component(refresh_event)
 
-    # 2. FIND ALL EVENT BLOCKS
-    # We look for the date containers you found
+    # 2. FIND ALL DATE CONTAINERS
     date_containers = soup.find_all('div', class_='event-meta-datetime')
     print(f"Found {len(date_containers)} event date containers.")
 
     for container in date_containers:
         try:
-            # BROAD SEARCH: Look for the nearest Heading (h3 or h2)
-            # We go up to the parent container and look for the title there
-            parent = container.find_parent('div', class_=lambda x: x and 'event' in x.lower())
-            if not parent:
-                parent = container.parent.parent # Fallback to higher parent
-
-            # Find the title (usually the first h2, h3, or bold link)
-            title_el = parent.find(['h2', 'h3', 'a'], class_=lambda x: x and 'title' in x.lower())
-            if not title_el:
-                title_el = parent.find(['h2', 'h3']) # If no 'title' class, just take the heading
-
+            # The title 'a' tag you sent is a 'previous sibling' or in a previous div
+            # We search backwards from the date to find the nearest 'link-secondary'
+            title_el = container.find_previous('a', class_='link-secondary')
+            
             if title_el:
                 title_text = title_el.text.strip()
-                date_text = container.text.strip()
-
+                
+                # Create the Event
                 event = Event()
                 event.add('summary', title_text)
-                event.add('description', f"Event Details: {date_text}")
+                event.add('description', f"Details: {container.text.strip()}\nLink: {title_el.get('href')}")
                 event.add('uid', get_uid(title_text))
-                event.add('dtstart', datetime.now(pytz.utc).date()) # All day today
+                
+                # Set as All-Day event for today
+                event.add('dtstart', datetime.now(pytz.utc).date())
                 
                 cal.add_component(event)
-                print(f"✅ Successfully added: {title_text}")
+                print(f"✅ Successfully linked: {title_text}")
             else:
-                print("⚠️ Found a date but couldn't find a title near it.")
+                print("⚠️ Could not find a link-secondary tag near this date.")
 
         except Exception as e:
             print(f"❌ Error: {e}")
             continue
 
+    # 3. WRITE THE FILE
     with open('tsl_events.ics', 'wb') as f:
         f.write(cal.to_ical())
 
