@@ -4,9 +4,34 @@ from icalendar import Calendar, Event
 from datetime import datetime
 import pytz
 import hashlib
+from dateutil import parser as date_parser
 
 def get_uid(text):
     return hashlib.md5(text.encode()).hexdigest() + "@tsl-bot.local"
+
+def parse_tsl_date(date_str):
+    """
+    Turns '11 Dec 2025 - 12 Apr 2026' into two datetime objects.
+    """
+    try:
+        # Split the range (e.g., '11 Dec 2025 - 12 Apr 2026')
+        parts = date_str.split('-')
+        start_raw = parts[0].strip()
+        
+        # Parse the start date
+        start_dt = date_parser.parse(start_raw).replace(tzinfo=pytz.timezone("Asia/Singapore"))
+        
+        # If there's an end date, parse it; otherwise, make it a 1-day event
+        if len(parts) > 1:
+            end_dt = date_parser.parse(parts[1].strip()).replace(tzinfo=pytz.timezone("Asia/Singapore"))
+        else:
+            end_dt = start_dt
+            
+        return start_dt, end_dt
+    except:
+        # Fallback to today if parsing fails
+        today = datetime.now(pytz.utc)
+        return today, today
 
 def run_sync():
     url = "https://thesmartlocal.com/event-calendar/"
@@ -20,47 +45,32 @@ def run_sync():
     cal.add('version', '2.0')
     cal.add('x-wr-calname', 'TheSmartLocal Events')
 
-    # 1. ADD SYNC TOKEN
-    refresh_event = Event()
-    refresh_event.add('summary', '🔄 TSL Calendar Last Synced')
-    now = datetime.now(pytz.utc)
-    refresh_event.add('dtstart', now)
-    refresh_event.add('dtend', now)
-    refresh_event.add('uid', 'sync-token-constant@tsl-bot.local')
-    cal.add_component(refresh_event)
-
-    # 2. FIND ALL DATE CONTAINERS
     date_containers = soup.find_all('div', class_='event-meta-datetime')
-    print(f"Found {len(date_containers)} event date containers.")
 
     for container in date_containers:
         try:
-            # The title 'a' tag you sent is a 'previous sibling' or in a previous div
-            # We search backwards from the date to find the nearest 'link-secondary'
             title_el = container.find_previous('a', class_='link-secondary')
-            
             if title_el:
                 title_text = title_el.text.strip()
+                raw_date_text = container.find('span').text.strip()
                 
-                # Create the Event
+                # Get the real start and end times!
+                start_dt, end_dt = parse_tsl_date(raw_date_text)
+
                 event = Event()
                 event.add('summary', title_text)
-                event.add('description', f"Details: {container.text.strip()}\nLink: {title_el.get('href')}")
                 event.add('uid', get_uid(title_text))
-                
-                # Set as All-Day event for today
-                event.add('dtstart', datetime.now(pytz.utc).date())
+                event.add('dtstart', start_dt)
+                event.add('dtend', end_dt)
+                event.add('description', f"Source: {title_el.get('href')}")
                 
                 cal.add_component(event)
-                print(f"✅ Successfully linked: {title_text}")
-            else:
-                print("⚠️ Could not find a link-secondary tag near this date.")
+                print(f"✅ Synced: {title_text} for {start_dt.date()}")
 
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"❌ Date Error: {e}")
             continue
 
-    # 3. WRITE THE FILE
     with open('tsl_events.ics', 'wb') as f:
         f.write(cal.to_ical())
 
