@@ -3,72 +3,74 @@ VERSION:2.0
 PRODID:-//TSL Events Scraper//EN
 X-WR-CALNAME:TheSmartLocal Events
 BEGIN:VEVENT
-SUMMARY:🔄 TSL Calendar Last Synced
-DTSTART:20260331T034912Z
-DTEND:20260331T034912Z
-UID:sync-token-constant@tsl-bot.local
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Once Upon A Tide
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20250524T000000
+DTEND;TZID=Asia/Singapore:20261009T100000
 UID:b9dd0e0921de604bbb1fcc8d60e2b398@tsl-bot.local
-DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026 10:00 am - 7:00 pm\nLink: h
- ttps://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
+DESCRIPTION:Source: https://thesmartlocal.com/read/once-upon-a-tide-nation
+ al-museum-singapore/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Petals of Friendship
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20251211T000000
+DTEND;TZID=Asia/Singapore:20260412T100000
 UID:0feccacf99d6e61c6065019dddf91a8b@tsl-bot.local
-DESCRIPTION:Details: 11 Dec 2025 - 12 Apr 2026 10:00 am - 9:00 pm\nLink: h
- ttps://thesmartlocal.com/read/my-little-pony-floral-fantasy/
+DESCRIPTION:Source: https://thesmartlocal.com/read/my-little-pony-floral-f
+ antasy/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NOX: Confessions of a Machine
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260123T000000
+DTEND;TZID=Asia/Singapore:20260419T100000
 UID:a2218bf7e9254ae788c2b82f07900215@tsl-bot.local
-DESCRIPTION:Details: 23 Jan - 19 Apr 2026 10:00 am - 7:00 pm\nLink: https:
- //thesmartlocal.com/read/nox-confessions-of-a-machine-artscience-museum/
+DESCRIPTION:Source: https://thesmartlocal.com/read/nox-confessions-of-a-ma
+ chine-artscience-museum/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The FRIENDS Experience
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260307T000000
+DTEND;TZID=Asia/Singapore:20260503T140000
 UID:77b66e7dde1846d960f49f922b7b80c3@tsl-bot.local
-DESCRIPTION:Details: 07 Mar - 03 May 2026 2:00 pm - 10:15 pm\nLink: https:
- //thesmartlocal.com/read/the-friends-experience-singapore/
+DESCRIPTION:Source: https://thesmartlocal.com/read/the-friends-experience-
+ singapore/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Miserables The Arena Spectacular
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260326T000000
+DTEND;TZID=Asia/Singapore:20260510T080000
 UID:59893a5e84a4078227ebba193aa2bce9@tsl-bot.local
-DESCRIPTION:Details: 26 Mar - 10 May 2026 8:00 am - 11:00 pm\nLink: https:
- //thesmartlocal.com/read/les-miserables-singapore/
+DESCRIPTION:Source: https://thesmartlocal.com/read/les-miserables-singapor
+ e/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ARTBOX CAMP
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260303T000000
+DTEND;TZID=Asia/Singapore:20260412T100000
 UID:439994af1ae731726d5fd64595772b62@tsl-bot.local
-DESCRIPTION:Details: 03 - 12 Apr 2026 10:00 am - 11:00 pm\nLink: https://t
- hesmartlocal.com/read/artbox-camp-2026/
+DESCRIPTION:Source: https://thesmartlocal.com/read/artbox-camp-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Minecraft Experience: Villager Rescue
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260424T000000
+DTEND;TZID=Asia/Singapore:20260913T110000
 UID:fcdf8391e02d0d7531eb1cc2107c7057@tsl-bot.local
-DESCRIPTION:Details: 24 Apr - 13 Sep 2026 11:00 am - 7:00 pm\nLink: https:
- //thesmartlocal.com/read/minecraft-experience-villager-rescue-singapore/
+DESCRIPTION:Source: https://thesmartlocal.com/read/minecraft-experience-vi
+ llager-rescue-singapore/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260428T080000
+DTEND;TZID=Asia/Singapore:20260331T220000
 UID:01f2d3d5f1385b53d80a227be08905a2@tsl-bot.local
-DESCRIPTION:Details: 28 Apr 2026 8:00 am - 10:00 pm\nLink: https://thesmar
- tlocal.com/read/my-chemical-romance-concert-singapore/
+DESCRIPTION:Source: https://thesmartlocal.com/read/my-chemical-romance-con
+ cert-singapore/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
-DTSTART;VALUE=DATE:20260331
+DTSTART;TZID=Asia/Singapore:20260628T100000
+DTEND;TZID=Asia/Singapore:20260331T113000
 UID:ebd34de05c076d706de2b204904e0900@tsl-bot.local
-DESCRIPTION:Details: 28 Jun 2026 10:00 am - 11:30 am\nLink: https://thesma
- rtlocal.com/read/ento-industries-insect-farm-tour/
+DESCRIPTION:Source: https://thesmartlocal.com/read/ento-industries-insect-
+ farm-tour/
 END:VEVENT
 END:VCALENDAR
