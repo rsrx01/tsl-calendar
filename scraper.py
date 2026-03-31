@@ -6,59 +6,64 @@ import pytz
 import hashlib
 
 def get_uid(text):
-    # Standardizing the UID so Apple Calendar recognizes the same event tomorrow
     return hashlib.md5(text.encode()).hexdigest() + "@tsl-bot.local"
 
 def run_sync():
     url = "https://thesmartlocal.com/event-calendar/"
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+    
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
     
     cal = Calendar()
-    # REQUIRED HEADERS for Apple Calendar/Validator
     cal.add('prodid', '-//TSL Events Scraper//EN')
     cal.add('version', '2.0')
     cal.add('x-wr-calname', 'TheSmartLocal Events')
-    cal.add('x-published-ttl', 'PT12H')
 
-    # ADD A "SYNC" EVENT (So the file is never empty)
+    # SYNC TOKEN
     refresh_event = Event()
     refresh_event.add('summary', '🔄 TSL Calendar Last Synced')
     now = datetime.now(pytz.utc)
     refresh_event.add('dtstart', now)
     refresh_event.add('dtend', now)
-    refresh_event.add('description', f'Last successful scrape at: {datetime.now(pytz.timezone("Asia/Singapore"))}')
     refresh_event.add('uid', 'sync-token-constant@tsl-bot.local')
     cal.add_component(refresh_event)
 
-    # SCRAPE ACTUAL EVENTS
-    # Note: If the website structure changes, we update these classes
-    events = soup.find_all('div', class_='elementor-post__card')
-    print(f"Scraper found {len(events)} events.")
+    # UPDATED SCRAPER LOGIC
+    # We target the 'article' tag which is common for Elementor posts
+    events = soup.find_all('article') 
+    print(f"Found {len(events)} potential event blocks.")
 
     for item in events:
         try:
-            title_el = item.find('h3', class_='elementor-post__title')
-            if not title_el: continue
+            # Look for titles in h3 or h2
+            title_el = item.find(['h3', 'h2', 'a'], class_=lambda x: x and 'title' in x.lower())
+            if not title_el:
+                continue
             
             title = title_el.text.strip()
-            uid = get_uid(title)
             
+            # Find the date/metadata section
+            meta_divs = item.find_all('div', class_=lambda x: x and 'excerpt' in x.lower())
+            description = ""
+            if meta_divs:
+                description = "\n".join([m.text.strip() for m in meta_divs])
+
             event = Event()
             event.add('summary', title)
-            event.add('uid', uid)
+            event.add('description', description)
+            event.add('uid', get_uid(title))
             
-            # For your Year 2 project, we'll set these as "All Day" events 
-            # until you write the logic to parse the specific date strings
+            # Setting to "All Day" for the current day for testing
             event.add('dtstart', datetime.now(pytz.utc).date())
             
             cal.add_component(event)
+            print(f"✅ Successfully added: {title}")
+            
         except Exception as e:
-            print(f"Error skipping one event: {e}")
+            print(f"❌ Error parsing event: {e}")
             continue
 
-    # WRITE FILE
     with open('tsl_events.ics', 'wb') as f:
         f.write(cal.to_ical())
 
