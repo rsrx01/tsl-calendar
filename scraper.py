@@ -4,7 +4,6 @@ from icalendar import Calendar, Event
 from datetime import datetime
 import pytz
 import hashlib
-import re
 
 def get_uid(text):
     return hashlib.md5(text.encode()).hexdigest() + "@tsl-bot.local"
@@ -21,7 +20,7 @@ def run_sync():
     cal.add('version', '2.0')
     cal.add('x-wr-calname', 'TheSmartLocal Events')
 
-    # 1. ADD SYNC TOKEN
+    # 1. ADD SYNC TOKEN (Always keep this so the file isn't empty)
     refresh_event = Event()
     refresh_event.add('summary', '🔄 TSL Calendar Last Synced')
     now = datetime.now(pytz.utc)
@@ -30,42 +29,41 @@ def run_sync():
     refresh_event.add('uid', 'sync-token-constant@tsl-bot.local')
     cal.add_component(refresh_event)
 
-    # 2. TARGET THE DATE CONTAINERS YOU FOUND
-    # We find all divs with that specific class name
+    # 2. FIND ALL EVENT BLOCKS
+    # We look for the date containers you found
     date_containers = soup.find_all('div', class_='event-meta-datetime')
     print(f"Found {len(date_containers)} event date containers.")
 
     for container in date_containers:
         try:
-            # Move up the tree to find the parent "Card" that holds the Title
-            # Usually, the title is in an <h3> nearby
-            parent_card = container.find_parent(['div', 'article', 'section'], class_=lambda x: x and 'item' in x.lower() or 'post' in x.lower())
-            
-            title_el = None
-            if parent_card:
-                title_el = parent_card.find(['h2', 'h3', 'a'], class_=lambda x: x and 'title' in x.lower())
-            
-            if not title_el:
-                continue
+            # BROAD SEARCH: Look for the nearest Heading (h3 or h2)
+            # We go up to the parent container and look for the title there
+            parent = container.find_parent('div', class_=lambda x: x and 'event' in x.lower())
+            if not parent:
+                parent = container.parent.parent # Fallback to higher parent
 
-            title = title_el.text.strip()
-            date_text = container.find('span').text.strip()
-            
-            # Create the Event
-            event = Event()
-            event.add('summary', title)
-            event.add('description', f"Dates: {date_text}")
-            event.add('uid', get_uid(title))
-            
-            # Logic: Try to find a year in the text to validate it's a real date
-            if "2025" in date_text or "2026" in date_text:
-                # For now, keep as 'All Day' today so they appear in your list
-                event.add('dtstart', datetime.now(pytz.utc).date())
+            # Find the title (usually the first h2, h3, or bold link)
+            title_el = parent.find(['h2', 'h3', 'a'], class_=lambda x: x and 'title' in x.lower())
+            if not title_el:
+                title_el = parent.find(['h2', 'h3']) # If no 'title' class, just take the heading
+
+            if title_el:
+                title_text = title_el.text.strip()
+                date_text = container.text.strip()
+
+                event = Event()
+                event.add('summary', title_text)
+                event.add('description', f"Event Details: {date_text}")
+                event.add('uid', get_uid(title_text))
+                event.add('dtstart', datetime.now(pytz.utc).date()) # All day today
+                
                 cal.add_component(event)
-                print(f"✅ Added: {title}")
+                print(f"✅ Successfully added: {title_text}")
+            else:
+                print("⚠️ Found a date but couldn't find a title near it.")
 
         except Exception as e:
-            print(f"❌ Error parsing: {e}")
+            print(f"❌ Error: {e}")
             continue
 
     with open('tsl_events.ics', 'wb') as f:
