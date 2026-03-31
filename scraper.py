@@ -11,27 +11,36 @@ def get_uid(text):
 
 def parse_tsl_date(date_str):
     """
-    Turns '11 Dec 2025 - 12 Apr 2026' into two datetime objects.
+    Cleans '03 - 12 Apr 2026 10:00 am...' into proper start/end dates.
     """
     try:
-        # Split the range (e.g., '11 Dec 2025 - 12 Apr 2026')
-        parts = date_str.split('-')
-        start_raw = parts[0].strip()
+        # 1. Clean the string: remove times and extra whitespace
+        # We split by 'am' or 'pm' and take the first part to get just the date
+        clean_str = re.split(r'\d{1,2}:\d{2}', date_str)[0].strip()
         
-        # Parse the start date
-        start_dt = date_parser.parse(start_raw).replace(tzinfo=pytz.timezone("Asia/Singapore"))
-        
-        # If there's an end date, parse it; otherwise, make it a 1-day event
-        if len(parts) > 1:
-            end_dt = date_parser.parse(parts[1].strip()).replace(tzinfo=pytz.timezone("Asia/Singapore"))
+        # 2. Split into Start and End
+        if ' - ' in clean_str:
+            parts = clean_str.split(' - ')
+            start_raw = parts[0].strip()
+            end_raw = parts[1].strip()
+            
+            # If the end date doesn't have a year (e.g., '12 Apr'), 
+            # we borrow the year from the start date or current year
+            start_dt = date_parser.parse(start_raw).replace(tzinfo=pytz.timezone("Asia/Singapore"))
+            end_dt = date_parser.parse(end_raw, default=start_dt).replace(tzinfo=pytz.timezone("Asia/Singapore"))
         else:
+            # Single day event
+            start_dt = date_parser.parse(clean_str).replace(tzinfo=pytz.timezone("Asia/Singapore"))
             end_dt = start_dt
             
         return start_dt, end_dt
-    except:
+    except Exception as e:
+        print(f"Parsing failed for '{date_str}': {e}")
         # Fallback to today if parsing fails
         today = datetime.now(pytz.utc)
         return today, today
+
+import re # Add this at the top of your file!
 
 def run_sync():
     url = "https://thesmartlocal.com/event-calendar/"
@@ -52,9 +61,9 @@ def run_sync():
             title_el = container.find_previous('a', class_='link-secondary')
             if title_el:
                 title_text = title_el.text.strip()
-                raw_date_text = container.find('span').text.strip()
+                # Get the text from the span
+                raw_date_text = container.find('span').get_text(separator=" ").strip()
                 
-                # Get the real start and end times!
                 start_dt, end_dt = parse_tsl_date(raw_date_text)
 
                 event = Event()
@@ -62,13 +71,12 @@ def run_sync():
                 event.add('uid', get_uid(title_text))
                 event.add('dtstart', start_dt)
                 event.add('dtend', end_dt)
-                event.add('description', f"Source: {title_el.get('href')}")
+                event.add('description', f"Details: {raw_date_text}\nLink: {title_el.get('href')}")
                 
                 cal.add_component(event)
-                print(f"✅ Synced: {title_text} for {start_dt.date()}")
+                print(f"✅ Map Synced: {title_text} -> {start_dt.strftime('%Y-%m-%d')}")
 
         except Exception as e:
-            print(f"❌ Date Error: {e}")
             continue
 
     with open('tsl_events.ics', 'wb') as f:
