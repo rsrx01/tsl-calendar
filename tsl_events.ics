@@ -67,6 +67,14 @@ DESCRIPTION:Details: 28 Apr 2026  8:00 am - 10:00 pm\nLink: https://thesma
  rtlocal.com/read/my-chemical-romance-concert-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HeritageFest 2026
+DTSTART;TZID=Asia/Singapore:20260401T000000
+DTEND;TZID=Asia/Singapore:20260524T000000
+UID:8dd4e04bc09262a997413b66800a0391@tsl-bot.local
+DESCRIPTION:Details: 01 - 24 May 2026  8:00 am - 11:00 pm\nLink: https://t
+ hesmartlocal.com/read/heritagefest-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
 DTSTART;TZID=Asia/Singapore:20260628T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
