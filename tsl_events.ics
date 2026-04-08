@@ -59,6 +59,14 @@ DESCRIPTION:Details: 24 Apr - 13 Sep 2026  11:00 am - 7:00 pm\nLink: https
  ://thesmartlocal.com/read/minecraft-experience-villager-rescue-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:vOilah! France Singapore Festival 2026
+DTSTART;TZID=Asia/Singapore:20260425T000000
+DTEND;TZID=Asia/Singapore:20260620T000000
+UID:98d986b07a7ca4c849e4d59e5f6e0394@tsl-bot.local
+DESCRIPTION:Details: 25 Apr - 20 Jun 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/voilah-france-singapore-festival-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
 DTSTART;TZID=Asia/Singapore:20260428T000000
 DTEND;TZID=Asia/Singapore:20260428T000000
