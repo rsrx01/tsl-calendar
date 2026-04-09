@@ -51,6 +51,14 @@ DESCRIPTION:Details: 03 - 12 Apr 2026  10:00 am - 11:00 pm\nLink: https://
  thesmartlocal.com/read/artbox-camp-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nespresso x Blue Bottle Coffee Pop-Up
+DTSTART;TZID=Asia/Singapore:20260403T000000
+DTEND;TZID=Asia/Singapore:20260412T000000
+UID:624eb3dcec0f513ff445835492e129f7@tsl-bot.local
+DESCRIPTION:Details: 03 - 12 Apr 2026  11:30 am - 7:30 pm\nLink: https://t
+ hesmartlocal.com/read/nespresso-blue-bottle-coffee/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Minecraft Experience: Villager Rescue
 DTSTART;TZID=Asia/Singapore:20260424T000000
 DTEND;TZID=Asia/Singapore:20260913T000000
@@ -73,14 +81,6 @@ DTEND;TZID=Asia/Singapore:20260428T000000
 UID:01f2d3d5f1385b53d80a227be08905a2@tsl-bot.local
 DESCRIPTION:Details: 28 Apr 2026  8:00 am - 10:00 pm\nLink: https://thesma
  rtlocal.com/read/my-chemical-romance-concert-singapore/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HeritageFest 2026
-DTSTART;TZID=Asia/Singapore:20260401T000000
-DTEND;TZID=Asia/Singapore:20260524T000000
-UID:8dd4e04bc09262a997413b66800a0391@tsl-bot.local
-DESCRIPTION:Details: 01 - 24 May 2026  8:00 am - 11:00 pm\nLink: https://t
- hesmartlocal.com/read/heritagefest-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
