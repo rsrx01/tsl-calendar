@@ -11,14 +11,6 @@ DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026  10:00 am - 7:00 pm\nLink:
  https://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NOX: Confessions of a Machine
-DTSTART;TZID=Asia/Singapore:20260123T000000
-DTEND;TZID=Asia/Singapore:20260419T000000
-UID:a2218bf7e9254ae788c2b82f07900215@tsl-bot.local
-DESCRIPTION:Details: 23 Jan - 19 Apr 2026  10:00 am - 7:00 pm\nLink: https
- ://thesmartlocal.com/read/nox-confessions-of-a-machine-artscience-museum/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The FRIENDS Experience
 DTSTART;TZID=Asia/Singapore:20260307T000000
 DTEND;TZID=Asia/Singapore:20260503T000000
