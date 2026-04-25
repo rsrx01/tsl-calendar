@@ -35,14 +35,6 @@ DESCRIPTION:Details: 24 Apr - 13 Sep 2026  11:00 am - 7:00 pm\nLink: https
  ://thesmartlocal.com/read/minecraft-experience-villager-rescue-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:
-DTSTART;TZID=Asia/Singapore:20260425T000000
-DTEND;TZID=Asia/Singapore:20260503T000000
-UID:d41d8cd98f00b204e9800998ecf8427e@tsl-bot.local
-DESCRIPTION:Details: 25 Apr - 03 May 2026  8:00 am - 11:00 pm\nLink: https
- ://thesmartlocal.com/read/malay-heritage-centre/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:vOilah! France Singapore Festival 2026
 DTSTART;TZID=Asia/Singapore:20260425T000000
 DTEND;TZID=Asia/Singapore:20260620T000000
