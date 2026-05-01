@@ -44,11 +44,19 @@ DESCRIPTION:Details: 25 Apr - 20 Jun 2026  8:00 am - 11:00 pm\nLink: https
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HeritageFest 2026
-DTSTART;TZID=Asia/Singapore:20260401T000000
+DTSTART;TZID=Asia/Singapore:20260501T000000
 DTEND;TZID=Asia/Singapore:20260524T000000
 UID:8dd4e04bc09262a997413b66800a0391@tsl-bot.local
 DESCRIPTION:Details: 01 - 24 May 2026  9:00 am - 10:00 pm\nLink: https://t
  hesmartlocal.com/read/heritagefest-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Walk With Hantu: Sembawang
+DTSTART;TZID=Asia/Singapore:20260502T000000
+DTEND;TZID=Asia/Singapore:20260523T000000
+UID:9ddc3453a979ff9dd9c069c811c4b8a0@tsl-bot.local
+DESCRIPTION:Details: 02 - 23 May 2026  6:00 pm - 9:00 pm\nLink: https://th
+ esmartlocal.com/read/supernatural-confessions-ghost-tour-sembawang/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
@@ -60,10 +68,18 @@ DESCRIPTION:Details: 28 Jun 2026  10:00 am - 11:30 am\nLink: https://thesm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
-DTSTART;TZID=Asia/Singapore:20260410T000000
+DTSTART;TZID=Asia/Singapore:20260510T000000
 DTEND;TZID=Asia/Singapore:20261111T000000
 UID:01f2d3d5f1385b53d80a227be08905a2@tsl-bot.local
 DESCRIPTION:Details: 10 - 11 Nov 2026  8:00 pm - 10:00 pm\nLink: https://t
  hesmartlocal.com/read/my-chemical-romance-concert-singapore/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Moulin Rouge! The Musical
+DTSTART;TZID=Asia/Singapore:20260216T000000
+DTEND;TZID=Asia/Singapore:20270404T000000
+UID:1d58e5a4f48aff024efefa37eacdbc4a@tsl-bot.local
+DESCRIPTION:Details: 16 Feb - 04 Apr 2027  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/moulin-rouge-musical-singapore/
 END:VEVENT
 END:VCALENDAR
