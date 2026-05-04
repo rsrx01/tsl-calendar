@@ -11,14 +11,6 @@ DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026  10:00 am - 7:00 pm\nLink:
  https://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The FRIENDS Experience
-DTSTART;TZID=Asia/Singapore:20260307T000000
-DTEND;TZID=Asia/Singapore:20260503T000000
-UID:77b66e7dde1846d960f49f922b7b80c3@tsl-bot.local
-DESCRIPTION:Details: 07 Mar - 03 May 2026  2:00 pm - 10:15 pm\nLink: https
- ://thesmartlocal.com/read/the-friends-experience-singapore/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Les Miserables The Arena Spectacular
 DTSTART;TZID=Asia/Singapore:20260326T000000
 DTEND;TZID=Asia/Singapore:20260510T000000
