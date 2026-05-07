@@ -51,6 +51,14 @@ DESCRIPTION:Details: 02 - 23 May 2026  6:00 pm - 9:00 pm\nLink: https://th
  esmartlocal.com/read/supernatural-confessions-ghost-tour-sembawang/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:i Light Singapore 2026
+DTSTART;TZID=Asia/Singapore:20260505T000000
+DTEND;TZID=Asia/Singapore:20260628T000000
+UID:51bdf92e21e94e9dab4b8cef788aa879@tsl-bot.local
+DESCRIPTION:Details: 05 - 28 Jun 2026  7:30 pm - 10:30 pm\nLink: https://t
+ hesmartlocal.com/read/i-light-singapore-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
 DTSTART;TZID=Asia/Singapore:20260628T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
