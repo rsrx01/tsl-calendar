@@ -11,14 +11,6 @@ DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026  10:00 am - 7:00 pm\nLink:
  https://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les Miserables The Arena Spectacular
-DTSTART;TZID=Asia/Singapore:20260326T000000
-DTEND;TZID=Asia/Singapore:20260510T000000
-UID:59893a5e84a4078227ebba193aa2bce9@tsl-bot.local
-DESCRIPTION:Details: 26 Mar - 10 May 2026  8:00 am - 11:00 pm\nLink: https
- ://thesmartlocal.com/read/les-miserables-singapore/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Minecraft Experience: Villager Rescue
 DTSTART;TZID=Asia/Singapore:20260424T000000
 DTEND;TZID=Asia/Singapore:20260913T000000
