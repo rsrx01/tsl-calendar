@@ -67,6 +67,14 @@ DESCRIPTION:Details: 10 - 19 Jul 2026  9:00 am - 11:30 pm\nLink: https://t
  hesmartlocal.com/read/glow-festival-sentosa/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:After Hours Til Dawn Stadium Tour
+DTSTART;TZID=Asia/Singapore:20260502T000000
+DTEND;TZID=Asia/Singapore:20261003T000000
+UID:cf3ed41d238301161d301f60bb355d8b@tsl-bot.local
+DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
+ hesmartlocal.com/read/the-weeknd-after-hours-til-dawn-singapore/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
 DTSTART;TZID=Asia/Singapore:20260510T000000
 DTEND;TZID=Asia/Singapore:20261111T000000
