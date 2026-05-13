@@ -51,6 +51,14 @@ DESCRIPTION:Details: 05 - 28 Jun 2026  7:30 pm - 10:30 pm\nLink: https://t
  hesmartlocal.com/read/i-light-singapore-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mahjong x Pickleball Night
+DTSTART;TZID=Asia/Singapore:20260626T000000
+DTEND;TZID=Asia/Singapore:20260626T000000
+UID:5cf8616cfb4cdd6f5ea25716b1e16c18@tsl-bot.local
+DESCRIPTION:Details: 26 Jun 2026  8:00 pm - 10:00 pm\nLink: https://thesma
+ rtlocal.com/read/play-pickle-serangoon-pickleball-mahjong-night/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
 DTSTART;TZID=Asia/Singapore:20260628T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
