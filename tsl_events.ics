@@ -43,6 +43,14 @@ DESCRIPTION:Details: 02 - 23 May 2026  6:00 pm - 9:00 pm\nLink: https://th
  esmartlocal.com/read/supernatural-confessions-ghost-tour-sembawang/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Our Joyous Vesak 2026
+DTSTART;TZID=Asia/Singapore:20260525T000000
+DTEND;TZID=Asia/Singapore:20260531T000000
+UID:794271e46ce5d276dfcddcf0893e1a2f@tsl-bot.local
+DESCRIPTION:Details: 25 - 31 May 2026  8:00 am - 11:00 pm\nLink: https://t
+ hesmartlocal.com/read/thekchen-choling-vesak-day-festival/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:i Light Singapore 2026
 DTSTART;TZID=Asia/Singapore:20260505T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
