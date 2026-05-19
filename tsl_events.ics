@@ -43,6 +43,22 @@ DESCRIPTION:Details: 02 - 23 May 2026  6:00 pm - 9:00 pm\nLink: https://th
  esmartlocal.com/read/supernatural-confessions-ghost-tour-sembawang/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sci-Fi Pop-up Library
+DTSTART;TZID=Asia/Singapore:20260514T000000
+DTEND;TZID=Asia/Singapore:20270411T000000
+UID:83cb5837bd159ef1d645c0a214c0620c@tsl-bot.local
+DESCRIPTION:Details: 14 May 2026 - 11 Apr 2027  10:00 am - 10:00 pm\nLink:
+  https://thesmartlocal.com/read/nlb-sci-fi-pop-up-library-parkway-parade/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Block Party at Our Tampines Hub
+DTSTART;TZID=Asia/Singapore:20260523T000000
+DTEND;TZID=Asia/Singapore:20260523T000000
+UID:d7e5c269acb9979c35f331bf687988ce@tsl-bot.local
+DESCRIPTION:Details: 23 May 2026  12:00 pm - 10:00 pm\nLink: https://thesm
+ artlocal.com/read/block-party-our-tampines-hub/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Our Joyous Vesak 2026
 DTSTART;TZID=Asia/Singapore:20260525T000000
 DTEND;TZID=Asia/Singapore:20260531T000000
