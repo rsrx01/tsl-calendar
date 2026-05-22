@@ -51,6 +51,22 @@ DESCRIPTION:Details: 14 May 2026 - 11 Apr 2027  10:00 am - 10:00 pm\nLink:
   https://thesmartlocal.com/read/nlb-sci-fi-pop-up-library-parkway-parade/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Charlie And The Chocolate Factory
+DTSTART;TZID=Asia/Singapore:20260519T000000
+DTEND;TZID=Asia/Singapore:20260614T000000
+UID:19714b7ead5817e977fec5bbdb83b2fd@tsl-bot.local
+DESCRIPTION:Details: 19 May - 14 Jun 2026  8:00 pm - 10:30 pm\nLink: https
+ ://thesmartlocal.com/read/charlie-and-the-chocolate-factory-musical/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kidz Pop Con Asia
+DTSTART;TZID=Asia/Singapore:20260523T000000
+DTEND;TZID=Asia/Singapore:20260524T000000
+UID:20254c830cedb73825eb20e4c9385dde@tsl-bot.local
+DESCRIPTION:Details: 23 - 24 May 2026  10:00 am - 8:00 pm\nLink: https://t
+ hesmartlocal.com/read/kidz-pop-con-asia/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Block Party at Our Tampines Hub
 DTSTART;TZID=Asia/Singapore:20260523T000000
 DTEND;TZID=Asia/Singapore:20260523T000000
@@ -73,6 +89,14 @@ DTEND;TZID=Asia/Singapore:20260531T000000
 UID:6b0f59e2666c3a7de39e41d342fa1a72@tsl-bot.local
 DESCRIPTION:Details: 29 - 31 May 2026  10:00 am - 10:00 pm\nLink: https://
  thesmartlocal.com/read/earthopia-fest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Portals Experience
+DTSTART;TZID=Asia/Singapore:20260601T000000
+DTEND;TZID=Asia/Singapore:20260902T000000
+UID:c0100d18d400e63275bf75b7c3a57bdc@tsl-bot.local
+DESCRIPTION:Details: 01 Jun - 02 Sep 2026  9:00 am - 9:00 pm\nLink: https:
+ //thesmartlocal.com/read/the-portals-experience-singapore/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:i Light Singapore 2026
