@@ -35,14 +35,6 @@ DESCRIPTION:Details: 01 - 24 May 2026  9:00 am - 10:00 pm\nLink: https://t
  hesmartlocal.com/read/heritagefest-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Walk With Hantu: Sembawang
-DTSTART;TZID=Asia/Singapore:20260502T000000
-DTEND;TZID=Asia/Singapore:20260523T000000
-UID:9ddc3453a979ff9dd9c069c811c4b8a0@tsl-bot.local
-DESCRIPTION:Details: 02 - 23 May 2026  6:00 pm - 9:00 pm\nLink: https://th
- esmartlocal.com/read/supernatural-confessions-ghost-tour-sembawang/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sci-Fi Pop-up Library
 DTSTART;TZID=Asia/Singapore:20260514T000000
 DTEND;TZID=Asia/Singapore:20270411T000000
@@ -65,14 +57,6 @@ DTEND;TZID=Asia/Singapore:20260524T000000
 UID:20254c830cedb73825eb20e4c9385dde@tsl-bot.local
 DESCRIPTION:Details: 23 - 24 May 2026  10:00 am - 8:00 pm\nLink: https://t
  hesmartlocal.com/read/kidz-pop-con-asia/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Block Party at Our Tampines Hub
-DTSTART;TZID=Asia/Singapore:20260523T000000
-DTEND;TZID=Asia/Singapore:20260523T000000
-UID:d7e5c269acb9979c35f331bf687988ce@tsl-bot.local
-DESCRIPTION:Details: 23 May 2026  12:00 pm - 10:00 pm\nLink: https://thesm
- artlocal.com/read/block-party-our-tampines-hub/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Our Joyous Vesak 2026
