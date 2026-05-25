@@ -27,14 +27,6 @@ DESCRIPTION:Details: 25 Apr - 20 Jun 2026  8:00 am - 11:00 pm\nLink: https
  ://thesmartlocal.com/read/voilah-france-singapore-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HeritageFest 2026
-DTSTART;TZID=Asia/Singapore:20260501T000000
-DTEND;TZID=Asia/Singapore:20260524T000000
-UID:8dd4e04bc09262a997413b66800a0391@tsl-bot.local
-DESCRIPTION:Details: 01 - 24 May 2026  9:00 am - 10:00 pm\nLink: https://t
- hesmartlocal.com/read/heritagefest-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sci-Fi Pop-up Library
 DTSTART;TZID=Asia/Singapore:20260514T000000
 DTEND;TZID=Asia/Singapore:20270411T000000
@@ -49,14 +41,6 @@ DTEND;TZID=Asia/Singapore:20260614T000000
 UID:19714b7ead5817e977fec5bbdb83b2fd@tsl-bot.local
 DESCRIPTION:Details: 19 May - 14 Jun 2026  8:00 pm - 10:30 pm\nLink: https
  ://thesmartlocal.com/read/charlie-and-the-chocolate-factory-musical/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kidz Pop Con Asia
-DTSTART;TZID=Asia/Singapore:20260523T000000
-DTEND;TZID=Asia/Singapore:20260524T000000
-UID:20254c830cedb73825eb20e4c9385dde@tsl-bot.local
-DESCRIPTION:Details: 23 - 24 May 2026  10:00 am - 8:00 pm\nLink: https://t
- hesmartlocal.com/read/kidz-pop-con-asia/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Our Joyous Vesak 2026
