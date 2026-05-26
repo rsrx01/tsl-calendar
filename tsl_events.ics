@@ -51,6 +51,14 @@ DESCRIPTION:Details: 25 - 31 May 2026  8:00 am - 11:00 pm\nLink: https://t
  hesmartlocal.com/read/thekchen-choling-vesak-day-festival/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hello Kitty x Jisoo Pop-Up
+DTSTART;TZID=Asia/Singapore:20260528T000000
+DTEND;TZID=Asia/Singapore:20260614T000000
+UID:67c585578eae470441d57bc451c3a851@tsl-bot.local
+DESCRIPTION:Details: 28 May - 14 Jun 2026  11:00 am - 10:00 pm\nLink: http
+ s://thesmartlocal.com/read/hello-kitty-blackpink-jisoo-wisma-atria/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Earthopia Fest 2026
 DTSTART;TZID=Asia/Singapore:20260529T000000
 DTEND;TZID=Asia/Singapore:20260531T000000
@@ -87,7 +95,7 @@ SUMMARY:Pygmalion: Mural of Singapore
 DTSTART;TZID=Asia/Singapore:20260520T000000
 DTEND;TZID=Asia/Singapore:20260621T000000
 UID:7986356f00171cf1968cbead93f18bf5@tsl-bot.local
-DESCRIPTION:Details: 20 - 21 Jun 2026  2:30 pm - 4:40 pm\nLink: https://th
+DESCRIPTION:Details: 20 - 21 Jun 2026  2:00 pm - 4:10 pm\nLink: https://th
  esmartlocal.com/read/working-title-productions-pygmalion-mural-of-singapor
  e/
 END:VEVENT
