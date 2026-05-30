@@ -67,6 +67,14 @@ DESCRIPTION:Details: 29 - 31 May 2026  10:00 am - 10:00 pm\nLink: https://
  thesmartlocal.com/read/earthopia-fest/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ONE Ocean: Every Action Ripples
+DTSTART;TZID=Asia/Singapore:20260530T000000
+DTEND;TZID=Asia/Singapore:20270103T000000
+UID:0f9eea76874eb4e01f05919c8473b3f9@tsl-bot.local
+DESCRIPTION:Details: 30 May 2026 - 03 Jan 2027  10:00 am - 5:00 pm\nLink: 
+ https://thesmartlocal.com/read/one-ocean-science-centre-singapore/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The Portals Experience
 DTSTART;TZID=Asia/Singapore:20260601T000000
 DTEND;TZID=Asia/Singapore:20260902T000000
