@@ -43,28 +43,12 @@ DESCRIPTION:Details: 19 May - 14 Jun 2026  8:00 pm - 10:30 pm\nLink: https
  ://thesmartlocal.com/read/charlie-and-the-chocolate-factory-musical/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Our Joyous Vesak 2026
-DTSTART;TZID=Asia/Singapore:20260525T000000
-DTEND;TZID=Asia/Singapore:20260531T000000
-UID:794271e46ce5d276dfcddcf0893e1a2f@tsl-bot.local
-DESCRIPTION:Details: 25 - 31 May 2026  8:00 am - 11:00 pm\nLink: https://t
- hesmartlocal.com/read/thekchen-choling-vesak-day-festival/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hello Kitty x Jisoo Pop-Up
 DTSTART;TZID=Asia/Singapore:20260528T000000
 DTEND;TZID=Asia/Singapore:20260614T000000
 UID:67c585578eae470441d57bc451c3a851@tsl-bot.local
 DESCRIPTION:Details: 28 May - 14 Jun 2026  11:00 am - 10:00 pm\nLink: http
  s://thesmartlocal.com/read/hello-kitty-blackpink-jisoo-wisma-atria/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Earthopia Fest 2026
-DTSTART;TZID=Asia/Singapore:20260529T000000
-DTEND;TZID=Asia/Singapore:20260531T000000
-UID:6b0f59e2666c3a7de39e41d342fa1a72@tsl-bot.local
-DESCRIPTION:Details: 29 - 31 May 2026  10:00 am - 10:00 pm\nLink: https://
- thesmartlocal.com/read/earthopia-fest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ONE Ocean: Every Action Ripples
@@ -84,7 +68,7 @@ DESCRIPTION:Details: 01 Jun - 02 Sep 2026  9:00 am - 9:00 pm\nLink: https:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:i Light Singapore 2026
-DTSTART;TZID=Asia/Singapore:20260505T000000
+DTSTART;TZID=Asia/Singapore:20260605T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
 UID:51bdf92e21e94e9dab4b8cef788aa879@tsl-bot.local
 DESCRIPTION:Details: 05 - 28 Jun 2026  7:30 pm - 10:30 pm\nLink: https://t
@@ -100,7 +84,7 @@ DESCRIPTION:Details: 08 Jun 2026 - 14 Mar 2027  10:00 am - 9:00 pm\nLink:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pygmalion: Mural of Singapore
-DTSTART;TZID=Asia/Singapore:20260520T000000
+DTSTART;TZID=Asia/Singapore:20260620T000000
 DTEND;TZID=Asia/Singapore:20260621T000000
 UID:7986356f00171cf1968cbead93f18bf5@tsl-bot.local
 DESCRIPTION:Details: 20 - 21 Jun 2026  2:00 pm - 4:10 pm\nLink: https://th
@@ -109,7 +93,7 @@ DESCRIPTION:Details: 20 - 21 Jun 2026  2:00 pm - 4:10 pm\nLink: https://th
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pygmalion: Mural of Singapore
-DTSTART;TZID=Asia/Singapore:20260520T000000
+DTSTART;TZID=Asia/Singapore:20260620T000000
 DTEND;TZID=Asia/Singapore:20260621T000000
 UID:7986356f00171cf1968cbead93f18bf5@tsl-bot.local
 DESCRIPTION:Details: 20 - 21 Jun 2026  7:30 pm - 9:40 pm\nLink: https://th
@@ -134,7 +118,7 @@ DESCRIPTION:Details: 28 Jun 2026  10:00 am - 11:30 am\nLink: https://thesm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Glow Festival 2026
-DTSTART;TZID=Asia/Singapore:20260510T000000
+DTSTART;TZID=Asia/Singapore:20260610T000000
 DTEND;TZID=Asia/Singapore:20260719T000000
 UID:b06345221ebba3703bae9f44fee5a884@tsl-bot.local
 DESCRIPTION:Details: 10 - 19 Jul 2026  9:00 am - 11:30 pm\nLink: https://t
@@ -142,7 +126,7 @@ DESCRIPTION:Details: 10 - 19 Jul 2026  9:00 am - 11:30 pm\nLink: https://t
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:After Hours Til Dawn Stadium Tour
-DTSTART;TZID=Asia/Singapore:20260502T000000
+DTSTART;TZID=Asia/Singapore:20260602T000000
 DTEND;TZID=Asia/Singapore:20261003T000000
 UID:cf3ed41d238301161d301f60bb355d8b@tsl-bot.local
 DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
@@ -150,7 +134,7 @@ DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
-DTSTART;TZID=Asia/Singapore:20260510T000000
+DTSTART;TZID=Asia/Singapore:20260610T000000
 DTEND;TZID=Asia/Singapore:20261111T000000
 UID:01f2d3d5f1385b53d80a227be08905a2@tsl-bot.local
 DESCRIPTION:Details: 10 - 11 Nov 2026  8:00 pm - 10:00 pm\nLink: https://t
