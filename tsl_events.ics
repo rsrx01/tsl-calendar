@@ -75,6 +75,14 @@ DESCRIPTION:Details: 01 Jun - 02 Sep 2026  9:00 am - 9:00 pm\nLink: https:
  //thesmartlocal.com/read/the-portals-experience-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:GastroBeats 2026
+DTSTART;TZID=Asia/Singapore:20260605T000000
+DTEND;TZID=Asia/Singapore:20260628T000000
+UID:d64a17a905df7e6af8976552664c50c1@tsl-bot.local
+DESCRIPTION:Details: 05 - 28 Jun 2026  4:00 pm - 11:00 pm\nLink: https://t
+ hesmartlocal.com/read/gastrobeats-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:i Light Singapore 2026
 DTSTART;TZID=Asia/Singapore:20260605T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
@@ -89,6 +97,14 @@ DTEND;TZID=Asia/Singapore:20270314T000000
 UID:39bb24f4ae346cf62659424863fc91d0@tsl-bot.local
 DESCRIPTION:Details: 08 Jun 2026 - 14 Mar 2027  10:00 am - 9:00 pm\nLink: 
  https://thesmartlocal.com/read/disney-garden-of-wonder-floral-fantasy/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lion City Faire
+DTSTART;TZID=Asia/Singapore:20260613T000000
+DTEND;TZID=Asia/Singapore:20260614T000000
+UID:5f075129345b486c3addee9e69db9da2@tsl-bot.local
+DESCRIPTION:Details: 13 - 14 Jun 2026  10:30 am - 9:00 pm\nLink: https://t
+ hesmartlocal.com/read/lion-city-faire/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pygmalion: Mural of Singapore
