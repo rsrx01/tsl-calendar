@@ -99,6 +99,14 @@ DESCRIPTION:Details: 08 Jun 2026 - 14 Mar 2027  10:00 am - 9:00 pm\nLink:
  https://thesmartlocal.com/read/disney-garden-of-wonder-floral-fantasy/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CHIJMES & Capitol Singapore World Cup Live Screenings
+DTSTART;TZID=Asia/Singapore:20260611T000000
+DTEND;TZID=Asia/Singapore:20260720T000000
+UID:46d7eb0c4beca57855437b3d425bd915@tsl-bot.local
+DESCRIPTION:Details: 11 Jun - 20 Jul 2026  8:00 am - 12:00 am\nLink: https
+ ://thesmartlocal.com/read/chijmes-capitol-singapore-world-cup/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lion City Faire
 DTSTART;TZID=Asia/Singapore:20260613T000000
 DTEND;TZID=Asia/Singapore:20260614T000000
