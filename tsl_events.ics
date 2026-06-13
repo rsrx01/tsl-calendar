@@ -51,6 +51,14 @@ DESCRIPTION:Details: 28 May - 14 Jun 2026  11:00 am - 10:00 pm\nLink: http
  s://thesmartlocal.com/read/hello-kitty-blackpink-jisoo-wisma-atria/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:VivoCity Toy Story Carnival
+DTSTART;TZID=Asia/Singapore:20260529T000000
+DTEND;TZID=Asia/Singapore:20260628T000000
+UID:dfa582e237a978cec62b895d2e61ff5e@tsl-bot.local
+DESCRIPTION:Details: 29 May - 28 Jun 2026  12:00 pm - 10:00 pm\nLink: http
+ s://thesmartlocal.com/read/vivocity-toy-story-carnival/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lazy Days with Dog & Frog by Niall Breen
 DTSTART;TZID=Asia/Singapore:20260529T000000
 DTEND;TZID=Asia/Singapore:20260726T000000
