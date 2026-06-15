@@ -35,22 +35,6 @@ DESCRIPTION:Details: 14 May 2026 - 11 Apr 2027  10:00 am - 10:00 pm\nLink:
   https://thesmartlocal.com/read/nlb-sci-fi-pop-up-library-parkway-parade/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Charlie And The Chocolate Factory
-DTSTART;TZID=Asia/Singapore:20260519T000000
-DTEND;TZID=Asia/Singapore:20260614T000000
-UID:19714b7ead5817e977fec5bbdb83b2fd@tsl-bot.local
-DESCRIPTION:Details: 19 May - 14 Jun 2026  8:00 pm - 10:30 pm\nLink: https
- ://thesmartlocal.com/read/charlie-and-the-chocolate-factory-musical/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hello Kitty x Jisoo Pop-Up
-DTSTART;TZID=Asia/Singapore:20260528T000000
-DTEND;TZID=Asia/Singapore:20260614T000000
-UID:67c585578eae470441d57bc451c3a851@tsl-bot.local
-DESCRIPTION:Details: 28 May - 14 Jun 2026  11:00 am - 10:00 pm\nLink: http
- s://thesmartlocal.com/read/hello-kitty-blackpink-jisoo-wisma-atria/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:VivoCity Toy Story Carnival
 DTSTART;TZID=Asia/Singapore:20260529T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
@@ -113,14 +97,6 @@ DTEND;TZID=Asia/Singapore:20260720T000000
 UID:46d7eb0c4beca57855437b3d425bd915@tsl-bot.local
 DESCRIPTION:Details: 11 Jun - 20 Jul 2026  8:00 am - 12:00 am\nLink: https
  ://thesmartlocal.com/read/chijmes-capitol-singapore-world-cup/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lion City Faire
-DTSTART;TZID=Asia/Singapore:20260613T000000
-DTEND;TZID=Asia/Singapore:20260614T000000
-UID:5f075129345b486c3addee9e69db9da2@tsl-bot.local
-DESCRIPTION:Details: 13 - 14 Jun 2026  10:30 am - 9:00 pm\nLink: https://t
- hesmartlocal.com/read/lion-city-faire/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pygmalion: Mural of Singapore
