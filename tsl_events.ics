@@ -117,6 +117,14 @@ DESCRIPTION:Details: 20 - 21 Jun 2026  7:30 pm - 9:40 pm\nLink: https://th
  e/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Magical Island Adventure: Let’s Set Sail with Disney Cruise
+DTSTART;TZID=Asia/Singapore:20260624T000000
+DTEND;TZID=Asia/Singapore:20260920T000000
+UID:7de9578e167faba8747ac9077d86fafd@tsl-bot.local
+DESCRIPTION:Details: 24 Jun - 20 Sep 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/disney-adventure-sentosa-takeover/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CRYBABY Cry Me An Ocean
 DTSTART;TZID=Asia/Singapore:20260624T000000
 DTEND;TZID=Asia/Singapore:20260830T000000
