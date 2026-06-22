@@ -107,24 +107,6 @@ DESCRIPTION:Details: 20 Jun - 18 Jul 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/cj-hendry-juju-world-imba-theatre/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pygmalion: Mural of Singapore
-DTSTART;TZID=Asia/Singapore:20260620T000000
-DTEND;TZID=Asia/Singapore:20260621T000000
-UID:7986356f00171cf1968cbead93f18bf5@tsl-bot.local
-DESCRIPTION:Details: 20 - 21 Jun 2026  2:00 pm - 4:10 pm\nLink: https://th
- esmartlocal.com/read/working-title-productions-pygmalion-mural-of-singapor
- e/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pygmalion: Mural of Singapore
-DTSTART;TZID=Asia/Singapore:20260620T000000
-DTEND;TZID=Asia/Singapore:20260621T000000
-UID:7986356f00171cf1968cbead93f18bf5@tsl-bot.local
-DESCRIPTION:Details: 20 - 21 Jun 2026  7:30 pm - 9:40 pm\nLink: https://th
- esmartlocal.com/read/working-title-productions-pygmalion-mural-of-singapor
- e/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Magical Island Adventure: Let’s Set Sail with Disney Cruise
 DTSTART;TZID=Asia/Singapore:20260624T000000
 DTEND;TZID=Asia/Singapore:20260920T000000
