@@ -131,6 +131,14 @@ DESCRIPTION:Details: 26 Jun 2026  8:00 pm - 10:00 pm\nLink: https://thesma
  rtlocal.com/read/play-pickle-serangoon-pickleball-mahjong-night/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Asia Cat Expo 2026
+DTSTART;TZID=Asia/Singapore:20260627T000000
+DTEND;TZID=Asia/Singapore:20260628T000000
+UID:d9cbd32c39828a6958f5193f117d7434@tsl-bot.local
+DESCRIPTION:Details: 27 - 28 Jun 2026  10:00 am - 8:00 pm\nLink: https://t
+ hesmartlocal.com/read/asia-cat-expo-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
 DTSTART;TZID=Asia/Singapore:20260628T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
