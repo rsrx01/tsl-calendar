@@ -99,6 +99,14 @@ DESCRIPTION:Details: 15 Jun - 05 Jul 2026  11:00 am - 10:00 pm\nLink: http
  s://thesmartlocal.com/read/simplygo-adventure-quest-pop-up/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:X *SCAPE: Sports Edition
+DTSTART;TZID=Asia/Singapore:20260620T000000
+DTEND;TZID=Asia/Singapore:20260720T000000
+UID:ab73ba89c39d154f161f2ae57aca8f41@tsl-bot.local
+DESCRIPTION:Details: 20 Jun - 20 Jul 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/scape-world-cup/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cj Hendry's juju world
 DTSTART;TZID=Asia/Singapore:20260620T000000
 DTEND;TZID=Asia/Singapore:20260718T000000
@@ -115,14 +123,6 @@ DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mahjong x Pickleball Night
-DTSTART;TZID=Asia/Singapore:20260626T000000
-DTEND;TZID=Asia/Singapore:20260626T000000
-UID:5cf8616cfb4cdd6f5ea25716b1e16c18@tsl-bot.local
-DESCRIPTION:Details: 26 Jun 2026  8:00 pm - 10:00 pm\nLink: https://thesma
- rtlocal.com/read/play-pickle-serangoon-pickleball-mahjong-night/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Asia Cat Expo 2026
 DTSTART;TZID=Asia/Singapore:20260627T000000
 DTEND;TZID=Asia/Singapore:20260628T000000
@@ -137,6 +137,14 @@ DTEND;TZID=Asia/Singapore:20260628T000000
 UID:ebd34de05c076d706de2b204904e0900@tsl-bot.local
 DESCRIPTION:Details: 28 Jun 2026  10:00 am - 11:30 am\nLink: https://thesm
  artlocal.com/read/ento-industries-insect-farm-tour/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CCL6 Preview
+DTSTART;TZID=Asia/Singapore:20260704T000000
+DTEND;TZID=Asia/Singapore:20260704T000000
+UID:f9b52e6acf232c66229c3cd346311141@tsl-bot.local
+DESCRIPTION:Details: 04 Jul 2026  9:30 am - 9:00 pm\nLink: https://thesmar
+ tlocal.com/read/circle-line-6-fairprice-vouchers/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Glow Festival 2026
