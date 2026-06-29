@@ -27,14 +27,6 @@ DESCRIPTION:Details: 14 May 2026 - 11 Apr 2027  10:00 am - 10:00 pm\nLink:
   https://thesmartlocal.com/read/nlb-sci-fi-pop-up-library-parkway-parade/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VivoCity Toy Story Carnival
-DTSTART;TZID=Asia/Singapore:20260529T000000
-DTEND;TZID=Asia/Singapore:20260628T000000
-UID:dfa582e237a978cec62b895d2e61ff5e@tsl-bot.local
-DESCRIPTION:Details: 29 May - 28 Jun 2026  12:00 pm - 10:00 pm\nLink: http
- s://thesmartlocal.com/read/vivocity-toy-story-carnival/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lazy Days with Dog & Frog by Niall Breen
 DTSTART;TZID=Asia/Singapore:20260529T000000
 DTEND;TZID=Asia/Singapore:20260726T000000
@@ -57,22 +49,6 @@ DTEND;TZID=Asia/Singapore:20260902T000000
 UID:c0100d18d400e63275bf75b7c3a57bdc@tsl-bot.local
 DESCRIPTION:Details: 01 Jun - 02 Sep 2026  9:00 am - 9:00 pm\nLink: https:
  //thesmartlocal.com/read/the-portals-experience-singapore/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GastroBeats 2026
-DTSTART;TZID=Asia/Singapore:20260605T000000
-DTEND;TZID=Asia/Singapore:20260628T000000
-UID:d64a17a905df7e6af8976552664c50c1@tsl-bot.local
-DESCRIPTION:Details: 05 - 28 Jun 2026  4:00 pm - 11:00 pm\nLink: https://t
- hesmartlocal.com/read/gastrobeats-2026/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:i Light Singapore 2026
-DTSTART;TZID=Asia/Singapore:20260605T000000
-DTEND;TZID=Asia/Singapore:20260628T000000
-UID:51bdf92e21e94e9dab4b8cef788aa879@tsl-bot.local
-DESCRIPTION:Details: 05 - 28 Jun 2026  7:30 pm - 10:30 pm\nLink: https://t
- hesmartlocal.com/read/i-light-singapore-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Disney Garden of Wonder
@@ -121,22 +97,6 @@ DTEND;TZID=Asia/Singapore:20260830T000000
 UID:9e8fcd87639ff2f9732aa30811700ee7@tsl-bot.local
 DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Asia Cat Expo 2026
-DTSTART;TZID=Asia/Singapore:20260627T000000
-DTEND;TZID=Asia/Singapore:20260628T000000
-UID:d9cbd32c39828a6958f5193f117d7434@tsl-bot.local
-DESCRIPTION:Details: 27 - 28 Jun 2026  10:00 am - 8:00 pm\nLink: https://t
- hesmartlocal.com/read/asia-cat-expo-2026/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ento Industries Insect Farm Tour: From Food Waste to Wonder
-DTSTART;TZID=Asia/Singapore:20260628T000000
-DTEND;TZID=Asia/Singapore:20260628T000000
-UID:ebd34de05c076d706de2b204904e0900@tsl-bot.local
-DESCRIPTION:Details: 28 Jun 2026  10:00 am - 11:30 am\nLink: https://thesm
- artlocal.com/read/ento-industries-insect-farm-tour/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCL6 Preview
