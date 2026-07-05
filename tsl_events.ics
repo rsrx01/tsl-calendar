@@ -107,14 +107,6 @@ DESCRIPTION:Details: 04 - 12 Jul 2026  8:00 am - 10:00 pm\nLink: https://t
  hesmartlocal.com/read/singapore-garden-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CCL6 Preview
-DTSTART;TZID=Asia/Singapore:20260704T000000
-DTEND;TZID=Asia/Singapore:20260704T000000
-UID:f9b52e6acf232c66229c3cd346311141@tsl-bot.local
-DESCRIPTION:Details: 04 Jul 2026  9:30 am - 9:00 pm\nLink: https://thesmar
- tlocal.com/read/circle-line-6-fairprice-vouchers/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glow Festival 2026
 DTSTART;TZID=Asia/Singapore:20260710T000000
 DTEND;TZID=Asia/Singapore:20260719T000000
