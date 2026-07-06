@@ -67,14 +67,6 @@ DESCRIPTION:Details: 11 Jun - 20 Jul 2026  8:00 am - 12:00 am\nLink: https
  ://thesmartlocal.com/read/chijmes-capitol-singapore-world-cup/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SimplyGo Adventure Quest pop-up
-DTSTART;TZID=Asia/Singapore:20260615T000000
-DTEND;TZID=Asia/Singapore:20260705T000000
-UID:1339b842e17655dae3b4d59a2623fc97@tsl-bot.local
-DESCRIPTION:Details: 15 Jun - 05 Jul 2026  11:00 am - 10:00 pm\nLink: http
- s://thesmartlocal.com/read/simplygo-adventure-quest-pop-up/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:X *SCAPE: Sports Edition
 DTSTART;TZID=Asia/Singapore:20260620T000000
 DTEND;TZID=Asia/Singapore:20260720T000000
