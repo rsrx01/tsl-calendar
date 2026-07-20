@@ -83,14 +83,6 @@ DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Glow Festival 2026
-DTSTART;TZID=Asia/Singapore:20260710T000000
-DTEND;TZID=Asia/Singapore:20260719T000000
-UID:b06345221ebba3703bae9f44fee5a884@tsl-bot.local
-DESCRIPTION:Details: 10 - 19 Jul 2026  9:00 am - 11:30 pm\nLink: https://t
- hesmartlocal.com/read/glow-festival-sentosa/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Singapore Night Festival 2026
 DTSTART;TZID=Asia/Singapore:20260821T000000
 DTEND;TZID=Asia/Singapore:20260905T000000
