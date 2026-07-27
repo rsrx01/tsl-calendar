@@ -27,14 +27,6 @@ DESCRIPTION:Details: 14 May 2026 - 11 Apr 2027  10:00 am - 10:00 pm\nLink:
   https://thesmartlocal.com/read/nlb-sci-fi-pop-up-library-parkway-parade/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lazy Days with Dog & Frog by Niall Breen
-DTSTART;TZID=Asia/Singapore:20260529T000000
-DTEND;TZID=Asia/Singapore:20260726T000000
-UID:7c75ab5f04496c8db8307133e8563fcb@tsl-bot.local
-DESCRIPTION:Details: 29 May - 26 Jul 2026  12:00 pm - 7:00 pm\nLink: https
- ://thesmartlocal.com/read/lazy-days-heartware-store-gallery/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ONE Ocean: Every Action Ripples
 DTSTART;TZID=Asia/Singapore:20260530T000000
 DTEND;TZID=Asia/Singapore:20270103T000000
