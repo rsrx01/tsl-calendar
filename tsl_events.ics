@@ -59,6 +59,14 @@ DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Made In Singapore Fair / Farmers Market
+DTSTART;TZID=Asia/Singapore:20260701T000000
+DTEND;TZID=Asia/Singapore:20260802T000000
+UID:468b2131f8fd8643f8e0a9af2ac05659@tsl-bot.local
+DESCRIPTION:Details: 01 - 02 Aug 2026  10:00 am - 7:00 pm\nLink: https://t
+ hesmartlocal.com/read/fairprice-xtra-jem-stamp-rally/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Singapore Night Festival 2026
 DTSTART;TZID=Asia/Singapore:20260821T000000
 DTEND;TZID=Asia/Singapore:20260905T000000
