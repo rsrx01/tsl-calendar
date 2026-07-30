@@ -59,6 +59,14 @@ DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
  ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SLA25 Rediscovery Trail
+DTSTART;TZID=Asia/Singapore:20260714T000000
+DTEND;TZID=Asia/Singapore:20260913T000000
+UID:e8abcacc04cb5ac96f3454fdd7976017@tsl-bot.local
+DESCRIPTION:Details: 14 Jul - 13 Sep 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/sla25-rediscovery-trail/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Made In Singapore Fair / Farmers Market
 DTSTART;TZID=Asia/Singapore:20260701T000000
 DTEND;TZID=Asia/Singapore:20260802T000000
