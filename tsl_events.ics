@@ -99,6 +99,14 @@ DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
  hesmartlocal.com/read/the-weeknd-after-hours-til-dawn-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pokémon RUN 30 Singapore Edition
+DTSTART;TZID=Asia/Singapore:20260707T000000
+DTEND;TZID=Asia/Singapore:20261108T000000
+UID:76538a5e1f94e69d65f5da8b63d2227a@tsl-bot.local
+DESCRIPTION:Details: 07 - 08 Nov 2026  7:00 am - 2:00 pm\nLink: https://th
+ esmartlocal.com/read/pokemon-run-30-singapore-edition/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:My Chemical Romance Live in Singapore 2026
 DTSTART;TZID=Asia/Singapore:20260710T000000
 DTEND;TZID=Asia/Singapore:20261111T000000
