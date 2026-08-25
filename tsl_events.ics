@@ -75,6 +75,14 @@ DESCRIPTION:Details: 21 Aug - 05 Sep 2026  7:30 am - 12:00 am\nLink: https
  ://thesmartlocal.com/read/singapore-night-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:K-Pulse: K-Pop Group Dance Competition
+DTSTART;TZID=Asia/Singapore:20260805T000000
+DTEND;TZID=Asia/Singapore:20260913T000000
+UID:aa47e8c6796e3f05472b55279bcdf500@tsl-bot.local
+DESCRIPTION:Details: 05 - 13 Sep 2026  12:00 pm - 8:00 pm\nLink: https://t
+ hesmartlocal.com/read/k-pulse-k-pop-group-dance-competition/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:After Hours Til Dawn Stadium Tour
 DTSTART;TZID=Asia/Singapore:20260802T000000
 DTEND;TZID=Asia/Singapore:20261003T000000
