@@ -83,6 +83,14 @@ DESCRIPTION:Details: 05 - 13 Sep 2026  12:00 pm - 8:00 pm\nLink: https://t
  hesmartlocal.com/read/k-pulse-k-pop-group-dance-competition/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pixel Moon @ Chinatown Point
+DTSTART;TZID=Asia/Singapore:20260914T000000
+DTEND;TZID=Asia/Singapore:20261011T000000
+UID:f9cca3e95f9fb0e7a75fcc4c3850c10b@tsl-bot.local
+DESCRIPTION:Details: 14 Sep - 11 Oct 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/chinatown-point-mid-autumn-pixel-moon/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:After Hours Til Dawn Stadium Tour
 DTSTART;TZID=Asia/Singapore:20260802T000000
 DTEND;TZID=Asia/Singapore:20261003T000000
