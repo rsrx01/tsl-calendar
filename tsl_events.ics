@@ -51,14 +51,6 @@ DESCRIPTION:Details: 08 Jun 2026 - 14 Mar 2027  10:00 am - 9:00 pm\nLink:
  https://thesmartlocal.com/read/disney-garden-of-wonder-floral-fantasy/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CRYBABY Cry Me An Ocean
-DTSTART;TZID=Asia/Singapore:20260624T000000
-DTEND;TZID=Asia/Singapore:20260830T000000
-UID:9e8fcd87639ff2f9732aa30811700ee7@tsl-bot.local
-DESCRIPTION:Details: 24 Jun - 30 Aug 2026  10:00 am - 8:00 pm\nLink: https
- ://thesmartlocal.com/read/crybaby-singapore-oceanarium/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SLA25 Rediscovery Trail
 DTSTART;TZID=Asia/Singapore:20260714T000000
 DTEND;TZID=Asia/Singapore:20260913T000000
