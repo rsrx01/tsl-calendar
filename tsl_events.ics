@@ -35,14 +35,6 @@ DESCRIPTION:Details: 30 May 2026 - 03 Jan 2027  10:00 am - 5:00 pm\nLink:
  https://thesmartlocal.com/read/one-ocean-science-centre-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The Portals Experience
-DTSTART;TZID=Asia/Singapore:20260601T000000
-DTEND;TZID=Asia/Singapore:20260902T000000
-UID:c0100d18d400e63275bf75b7c3a57bdc@tsl-bot.local
-DESCRIPTION:Details: 01 Jun - 02 Sep 2026  9:00 am - 9:00 pm\nLink: https:
- //thesmartlocal.com/read/the-portals-experience-singapore/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Disney Garden of Wonder
 DTSTART;TZID=Asia/Singapore:20260608T000000
 DTEND;TZID=Asia/Singapore:20270314T000000
