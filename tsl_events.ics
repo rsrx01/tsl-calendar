@@ -59,14 +59,6 @@ DESCRIPTION:Details: 11 Aug - 22 Nov 2026  7:00 am - 7:00 pm\nLink: https:
  //thesmartlocal.com/read/geneo-free-pickleball-courts/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Singapore Night Festival 2026
-DTSTART;TZID=Asia/Singapore:20260821T000000
-DTEND;TZID=Asia/Singapore:20260905T000000
-UID:9b5572773f4f342be0698b3cfec66a5a@tsl-bot.local
-DESCRIPTION:Details: 21 Aug - 05 Sep 2026  7:30 am - 12:00 am\nLink: https
- ://thesmartlocal.com/read/singapore-night-festival-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Moonlit Wonder at Pasir Ris Mall
 DTSTART;TZID=Asia/Singapore:20260828T000000
 DTEND;TZID=Asia/Singapore:20261004T000000
