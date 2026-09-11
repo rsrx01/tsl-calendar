@@ -67,12 +67,28 @@ DESCRIPTION:Details: 28 Aug - 04 Oct 2026  8:00 am - 11:00 pm\nLink: https
  ://thesmartlocal.com/read/pasir-ris-mall-mid-autumn-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Stars Of Mandai Autograph Trail
+DTSTART;TZID=Asia/Singapore:20260905T000000
+DTEND;TZID=Asia/Singapore:20261101T000000
+UID:152ed8507b3409c1c5cbc48824c77dc2@tsl-bot.local
+DESCRIPTION:Details: 05 Sep - 01 Nov 2026  8:00 am - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/stars-of-mandai/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:K-Pulse: K-Pop Group Dance Competition
 DTSTART;TZID=Asia/Singapore:20260905T000000
 DTEND;TZID=Asia/Singapore:20260913T000000
 UID:aa47e8c6796e3f05472b55279bcdf500@tsl-bot.local
 DESCRIPTION:Details: 05 - 13 Sep 2026  12:00 pm - 8:00 pm\nLink: https://t
  hesmartlocal.com/read/k-pulse-k-pop-group-dance-competition/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bloomyard by Graphic Rewilding
+DTSTART;TZID=Asia/Singapore:20260910T000000
+DTEND;TZID=Asia/Singapore:20261025T000000
+UID:61d91e0cc6b23969e4f6b155f12bb073@tsl-bot.local
+DESCRIPTION:Details: 10 Sep - 25 Oct 2026  10:00 am - 7:00 pm\nLink: https
+ ://thesmartlocal.com/read/bloomyard-imba-theatre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pixel Moon @ Chinatown Point
