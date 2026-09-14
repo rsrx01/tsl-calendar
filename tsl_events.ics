@@ -11,14 +11,6 @@ DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026  10:00 am - 7:00 pm\nLink:
  https://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Minecraft Experience: Villager Rescue
-DTSTART;TZID=Asia/Singapore:20260424T000000
-DTEND;TZID=Asia/Singapore:20260913T000000
-UID:fcdf8391e02d0d7531eb1cc2107c7057@tsl-bot.local
-DESCRIPTION:Details: 24 Apr - 13 Sep 2026  11:00 am - 7:00 pm\nLink: https
- ://thesmartlocal.com/read/minecraft-experience-villager-rescue-singapore/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sci-Fi Pop-up Library
 DTSTART;TZID=Asia/Singapore:20260514T000000
 DTEND;TZID=Asia/Singapore:20270411T000000
@@ -43,14 +35,6 @@ DESCRIPTION:Details: 08 Jun 2026 - 14 Mar 2027  10:00 am - 9:00 pm\nLink:
  https://thesmartlocal.com/read/disney-garden-of-wonder-floral-fantasy/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SLA25 Rediscovery Trail
-DTSTART;TZID=Asia/Singapore:20260714T000000
-DTEND;TZID=Asia/Singapore:20260913T000000
-UID:e8abcacc04cb5ac96f3454fdd7976017@tsl-bot.local
-DESCRIPTION:Details: 14 Jul - 13 Sep 2026  8:00 am - 11:00 pm\nLink: https
- ://thesmartlocal.com/read/sla25-rediscovery-trail/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:REINVENTION: ALLPLAY Free Pickleball Courts
 DTSTART;TZID=Asia/Singapore:20260811T000000
 DTEND;TZID=Asia/Singapore:20261122T000000
@@ -73,14 +57,6 @@ DTEND;TZID=Asia/Singapore:20261101T000000
 UID:152ed8507b3409c1c5cbc48824c77dc2@tsl-bot.local
 DESCRIPTION:Details: 05 Sep - 01 Nov 2026  8:00 am - 11:00 pm\nLink: https
  ://thesmartlocal.com/read/stars-of-mandai/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:K-Pulse: K-Pop Group Dance Competition
-DTSTART;TZID=Asia/Singapore:20260905T000000
-DTEND;TZID=Asia/Singapore:20260913T000000
-UID:aa47e8c6796e3f05472b55279bcdf500@tsl-bot.local
-DESCRIPTION:Details: 05 - 13 Sep 2026  12:00 pm - 8:00 pm\nLink: https://t
- hesmartlocal.com/read/k-pulse-k-pop-group-dance-competition/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bloomyard by Graphic Rewilding
