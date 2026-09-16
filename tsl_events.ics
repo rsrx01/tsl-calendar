@@ -107,6 +107,14 @@ DESCRIPTION:Details: 04 - 06 Dec 2026  8:00 am - 11:00 pm\nLink: https://t
  hesmartlocal.com/read/gravity-mbs-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Story of Studio Ghibli
+DTSTART;TZID=Asia/Singapore:20261218T000000
+DTEND;TZID=Asia/Singapore:20270704T000000
+UID:85ef51ee88f0dcbe921e493241988a46@tsl-bot.local
+DESCRIPTION:Details: 18 Dec 2026 - 04 Jul 2027  10:00 am - 7:00 pm\nLink: 
+ https://thesmartlocal.com/read/the-story-of-studio-ghibli-singapore/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Moulin Rouge! The Musical
 DTSTART;TZID=Asia/Singapore:20260216T000000
 DTEND;TZID=Asia/Singapore:20270314T000000
