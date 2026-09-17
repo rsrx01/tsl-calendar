@@ -59,6 +59,14 @@ DESCRIPTION:Details: 05 Sep - 01 Nov 2026  8:00 am - 11:00 pm\nLink: https
  ://thesmartlocal.com/read/stars-of-mandai/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Forgotten Island Movie Jeepney Experiential Pop-up
+DTSTART;TZID=Asia/Singapore:20260907T000000
+DTEND;TZID=Asia/Singapore:20260920T000000
+UID:d556aaa4b859fb7af1eef6a62672172b@tsl-bot.local
+DESCRIPTION:Details: 07 - 20 Sep 2026  12:00 pm - 8:00 pm\nLink: https://t
+ hesmartlocal.com/read/forgotten-island-movie-pop-up/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bloomyard by Graphic Rewilding
 DTSTART;TZID=Asia/Singapore:20260910T000000
 DTEND;TZID=Asia/Singapore:20261025T000000
