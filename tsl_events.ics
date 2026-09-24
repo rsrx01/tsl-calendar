@@ -83,6 +83,14 @@ DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
  hesmartlocal.com/read/the-weeknd-after-hours-til-dawn-singapore/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Joo Chiat Car-Free Day street party
+DTSTART;TZID=Asia/Singapore:20261003T000000
+DTEND;TZID=Asia/Singapore:20261003T000000
+UID:4b529c3b6ac7d1ba219735eca880dca7@tsl-bot.local
+DESCRIPTION:Details: 03 Oct 2026  3:30 pm - 9:30 pm\nLink: https://thesmar
+ tlocal.com/read/joo-chiat-car-free-day/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pokémon RUN 30 Singapore Edition
 DTSTART;TZID=Asia/Singapore:20260907T000000
 DTEND;TZID=Asia/Singapore:20261108T000000
