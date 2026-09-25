@@ -75,6 +75,14 @@ DESCRIPTION:Details: 14 Sep - 11 Oct 2026  8:00 am - 11:00 pm\nLink: https
  ://thesmartlocal.com/read/chinatown-point-mid-autumn-pixel-moon/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Halloween Horror Nights 14
+DTSTART;TZID=Asia/Singapore:20260925T000000
+DTEND;TZID=Asia/Singapore:20261101T000000
+UID:d5a6823a2ec907cbbf02d46fd185e7d2@tsl-bot.local
+DESCRIPTION:Details: 25 Sep - 01 Nov 2026  7:15 pm - 1:30 am\nLink: https:
+ //thesmartlocal.com/read/halloween-horror-nights-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:After Hours Til Dawn Stadium Tour
 DTSTART;TZID=Asia/Singapore:20260902T000000
 DTEND;TZID=Asia/Singapore:20261003T000000
