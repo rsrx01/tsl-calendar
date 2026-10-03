@@ -99,6 +99,14 @@ DESCRIPTION:Details: 28 Sep - 26 Dec 2026  11:00 am - 10:00 pm\nLink: http
  s://thesmartlocal.com/read/jisulife-global-experience-store/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LEGO F1 Experience the Thrill
+DTSTART;TZID=Asia/Singapore:20261001T000000
+DTEND;TZID=Asia/Singapore:20261018T000000
+UID:47aa82ae52d0badac60c9ae2530a7567@tsl-bot.local
+DESCRIPTION:Details: 01 - 18 Oct 2026  11:00 am - 9:30 pm\nLink: https://t
+ hesmartlocal.com/read/lego-f1-experience-the-thrill/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:After Hours Til Dawn Stadium Tour
 DTSTART;TZID=Asia/Singapore:20261002T000000
 DTEND;TZID=Asia/Singapore:20261003T000000
