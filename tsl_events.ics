@@ -107,22 +107,6 @@ DESCRIPTION:Details: 01 - 18 Oct 2026  11:00 am - 9:30 pm\nLink: https://t
  hesmartlocal.com/read/lego-f1-experience-the-thrill/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:After Hours Til Dawn Stadium Tour
-DTSTART;TZID=Asia/Singapore:20261002T000000
-DTEND;TZID=Asia/Singapore:20261003T000000
-UID:cf3ed41d238301161d301f60bb355d8b@tsl-bot.local
-DESCRIPTION:Details: 02 - 03 Oct 2026  8:00 pm - 11:00 pm\nLink: https://t
- hesmartlocal.com/read/the-weeknd-after-hours-til-dawn-singapore/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Joo Chiat Car-Free Day street party
-DTSTART;TZID=Asia/Singapore:20261003T000000
-DTEND;TZID=Asia/Singapore:20261003T000000
-UID:4b529c3b6ac7d1ba219735eca880dca7@tsl-bot.local
-DESCRIPTION:Details: 03 Oct 2026  3:30 pm - 9:30 pm\nLink: https://thesmar
- tlocal.com/read/joo-chiat-car-free-day/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pokémon RUN 30 Singapore Edition
 DTSTART;TZID=Asia/Singapore:20261007T000000
 DTEND;TZID=Asia/Singapore:20261108T000000
