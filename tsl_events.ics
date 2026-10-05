@@ -43,14 +43,6 @@ DESCRIPTION:Details: 11 Aug - 22 Nov 2026  7:00 am - 7:00 pm\nLink: https:
  //thesmartlocal.com/read/geneo-free-pickleball-courts/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Moonlit Wonder at Pasir Ris Mall
-DTSTART;TZID=Asia/Singapore:20260828T000000
-DTEND;TZID=Asia/Singapore:20261004T000000
-UID:c72bbed689f0a780341915ecec6da474@tsl-bot.local
-DESCRIPTION:Details: 28 Aug - 04 Oct 2026  8:00 am - 11:00 pm\nLink: https
- ://thesmartlocal.com/read/pasir-ris-mall-mid-autumn-festival-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Stars Of Mandai Autograph Trail
 DTSTART;TZID=Asia/Singapore:20260905T000000
 DTEND;TZID=Asia/Singapore:20261101T000000
