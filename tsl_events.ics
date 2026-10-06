@@ -99,6 +99,14 @@ DESCRIPTION:Details: 01 - 18 Oct 2026  11:00 am - 9:30 pm\nLink: https://t
  hesmartlocal.com/read/lego-f1-experience-the-thrill/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Changi Experience Studio Haunts & Handmade
+DTSTART;TZID=Asia/Singapore:20261031T000000
+DTEND;TZID=Asia/Singapore:20261101T000000
+UID:c9920aac400d0678cfcecf82fe325c1c@tsl-bot.local
+DESCRIPTION:Details: 31 Oct - 01 Nov 2026  10:00 am - 8:00 pm\nLink: https
+ ://thesmartlocal.com/read/changi-experience-studio-halloween-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pokémon RUN 30 Singapore Edition
 DTSTART;TZID=Asia/Singapore:20261007T000000
 DTEND;TZID=Asia/Singapore:20261108T000000
