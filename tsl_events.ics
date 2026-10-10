@@ -3,14 +3,6 @@ VERSION:2.0
 PRODID:-//TSL Events Scraper//EN
 X-WR-CALNAME:TheSmartLocal Events
 BEGIN:VEVENT
-SUMMARY:Once Upon A Tide
-DTSTART;TZID=Asia/Singapore:20250524T000000
-DTEND;TZID=Asia/Singapore:20261009T000000
-UID:b9dd0e0921de604bbb1fcc8d60e2b398@tsl-bot.local
-DESCRIPTION:Details: 24 May 2025 - 09 Oct 2026  10:00 am - 7:00 pm\nLink: 
- https://thesmartlocal.com/read/once-upon-a-tide-national-museum-singapore/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sci-Fi Pop-up Library
 DTSTART;TZID=Asia/Singapore:20260514T000000
 DTEND;TZID=Asia/Singapore:20270411T000000
