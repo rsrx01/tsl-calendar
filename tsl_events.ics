@@ -91,6 +91,14 @@ DESCRIPTION:Details: 08 Oct - 15 Nov 2026  6:30 pm - 12:00 am\nLink: https
  ://thesmartlocal.com/read/haw-ror-villa-5/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Toy Story | PEACEMINUSONE: The First Fan
+DTSTART;TZID=Asia/Singapore:20261016T000000
+DTEND;TZID=Asia/Singapore:20261111T000000
+UID:d9874daba997c01ac8e528c385a93da2@tsl-bot.local
+DESCRIPTION:Details: 16 Oct - 11 Nov 2026  1:00 pm - 11:00 pm\nLink: https
+ ://thesmartlocal.com/read/toy-story-g-dragon-singapore/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Changi Experience Studio Haunts & Handmade
 DTSTART;TZID=Asia/Singapore:20261031T000000
 DTEND;TZID=Asia/Singapore:20261101T000000
