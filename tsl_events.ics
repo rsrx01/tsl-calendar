@@ -91,6 +91,14 @@ DESCRIPTION:Details: 13 - 22 Nov 2026  3:00 pm - 8:00 pm\nLink: https://th
  esmartlocal.com/read/singapore-writers-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Defence Collective Festival 2026
+DTSTART;TZID=Asia/Singapore:20261114T000000
+DTEND;TZID=Asia/Singapore:20261115T000000
+UID:a246e939bd826f3196244c8c6b082490@tsl-bot.local
+DESCRIPTION:Details: 14 - 15 Nov 2026  10:00 am - 6:00 pm\nLink: https://t
+ hesmartlocal.com/read/defence-collective-festival-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gravity
 DTSTART;TZID=Asia/Singapore:20261104T000000
 DTEND;TZID=Asia/Singapore:20261206T000000
